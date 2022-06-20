@@ -1,7 +1,7 @@
 package com.uas.simplenotes;
 
-public class NotesException {
-    public void NotesException(String errorMessage){
-
+public class NotesException extends Exception {
+    public NotesException(String errorMessage){
+        super(errorMessage);
     }
 }
